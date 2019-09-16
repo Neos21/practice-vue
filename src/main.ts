@@ -1,7 +1,9 @@
 import '@babel/polyfill';
 import 'mutationobserver-shim';
+
 import Vue from 'vue';
 import './plugins/bootstrap-vue';
+
 import App from './App.vue';
 import router from './router';
 
@@ -12,4 +14,4 @@ new Vue({
   render: (hyperscript) => {
     return hyperscript(App);
   }
-}).$mount('#app');
+}).$mount('#app');  // index.html に用意している要素と一致させる
