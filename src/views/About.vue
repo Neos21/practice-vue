@@ -1,15 +1,12 @@
 <template>
-  <div>
-    <h1>This is an about page</h1>
-    <b-alert show>Default Alert</b-alert>
+  <div class="about">
+    <h1 class="text-primary">This is an about page</h1>
+    <b-alert show variant="primary">Default Alert</b-alert>
   </div>
 </template>
 
 
 <style lang="scss" scoped>
-h1 {
-  color: #00f;
-}
 </style>
 
 
