@@ -10,5 +10,8 @@
         "distDir": "dist"
       }
     }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/dist/$1" }
   ]
 }
