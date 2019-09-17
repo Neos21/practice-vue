@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "practice-vue",
+  "alias": "practice-vue.neos21.now.sh",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ]
+}
