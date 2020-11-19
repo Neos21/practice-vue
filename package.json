@@ -1,12 +1,16 @@
 {
   "name": "practice-vue",
-  "version": "0.0.0",
+  "description": "Practice Vue",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "now-build": "npm run build"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
   },
   "dependencies": {
     "bootstrap-vue": "2.0.1",
